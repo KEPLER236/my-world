@@ -1,0 +1,243 @@
+<style>
+  button{
+    margin-bottom: 0.6px;
+  }
+  .request{
+   background-color: black;
+   color:white;
+   cursor:pointer;
+   transition:opacity 0.15s;
+   margin-top: 0.2px;
+   padding-left:13px;
+   padding-right:13px;
+   padding-top:8.6px;
+   padding-bottom:7.7px;
+  }
+  .request:hover{
+   opacity:0.76;
+  }
+  .request:active{
+   opacity:0.6;
+  }
+  .sart{
+   background-color: rgb(255,216,20);
+   color:black;
+   border-color:rgb(255,216,20);
+   border-style:solid;
+   border-radius:18px;
+   cursor:pointer;
+   padding-left:59px;
+   padding-right:59px;
+   padding-top:9px;
+   padding-bottom:7.2px;
+  }
+  .sart:hover{
+   background-color:rgb(176, 150, 19) ;
+  }
+  .sart:active{
+   background-color:rgb(146, 128, 42) ;
+  }
+  .sign{
+   background-color: rgb(46,164,79);
+   color:white;
+   font-weight:bold;
+   border-color:rgb(46,164,79);
+   border-style:solid;
+   border-radius:4px;
+   cursor:pointer;
+   transition:box-shadow 0.17s;
+   padding-left:21px;
+   padding-right:21px;
+   padding-top:11px;
+   padding-bottom:10.4px;
+   margin-bottom:0.2px;
+  }
+   .sign:hover{
+     box-shadow:5px 5px 8px rgba(0,0,0,0.3) ;
+   }
+  .get{
+   background-color: rgb(121,82,179);
+   color:white;
+   font-weight:bold;
+   border-color: rgb(121,82,179);
+   border-style:solid;
+   border-radius:2px;
+   border-width: 2px;
+   margin-right:7.5px;
+   cursor:pointer;
+   transition: background-color 0.15s, color 0.15s;
+  
+   padding-left:15px;
+   padding-right:18px;
+   padding-top:9px;
+   padding-bottom:8px;
+   vertical-align: top;
+  }
+  .get:hover{
+   background-color:white ;
+   color:rgb(121,82,179);
+  }
+  .download{
+   background-color: white;
+   color:rgb(108,117,125);
+   font-weight:bold;
+   border-color:rgb(108,117,125);
+   border-width:0.667px;
+   border-style:solid;
+   border-radius:3px;
+   cursor:pointer;
+   transition: background-color 0.15s, color 0.15s;
+   padding-left:15px;
+   padding-right:18px;
+   padding-top:9px;
+   padding-bottom:10.5px;
+   vertical-align: top;
+  }
+  .download:hover{
+   background-color: rgb(108,117,125);
+   color:white;
+  }
+  .apply{
+   background-color: rgb(10,102,194);
+   color:white;
+   border-color:rgb(10,102,194);
+   border-style:solid;
+   font-weight:bold;
+   font-size:13px;
+   border-radius:18px;
+   cursor:pointer;
+   margin-right:1px;
+   transition: background-color 0.15s;
+   
+   padding-left:18px;
+   padding-right:18px;
+   padding-top:9px;
+   padding-bottom:10px;
+   vertical-align: top;
+  }
+  .apply:hover{
+   background-color: blue;
+   
+  }
+  .save{
+   background-color: white;
+   color:rgb(10,102,194);
+   border-color:rgb(10,102,194);
+   border-style:solid;
+   font-weight:bold;
+   border-width:1px;
+   border-radius:18px;
+   cursor:pointer;
+   transition: border-width 0.15 s,
+   padding-bottom 0.15s,padding-top 0.15s,padding-left 0.15s,
+   padding-right 0.15s;
+   margin-left:6px;
+   padding-left:19px;
+   padding-right:19px;
+   padding-top:11px;
+   padding-bottom:9px;
+   vertical-align: top;
+  }
+  .save:hover{
+   border-width:2.7px ;
+   padding-bottom:7.5px;
+   padding-top:8.5px;
+   padding-left:18.15px;
+   padding-right:18.15px;
+  }
+  .nike{
+   color:rgb(0,0,0);
+   font-weight:bold;
+   font-size:25px;
+  text-indent:9px;
+  }
+  .stock{
+   color:rgb(0,118,0);
+   font-weight:bold;
+   text-indent:9px;
+  }
+ .ty{
+  text-indent:9px;
+ }
+  
+  .add{
+   background-color: rgb(255,216,20);
+  color:black;
+  border-color: rgb(255,216,20);
+  border-style:solid;
+  border-radius:18px;
+  margin-right:10px;
+  cursor:pointer;
+ 
+   padding-left:25px;
+   padding-right:25px;
+   padding-top:8px;
+   padding-bottom:8px;
+  }
+  .add:active{
+   opacity:0.49;
+  }
+  .buy{
+   background-color: rgb(255,164,28);
+   color:black;
+   border-color: rgb(255,164,28);
+   border-style:solid;
+   border-radius:18.79px;
+   cursor:pointer;
+   margin-left:10px;
+   padding-left:25px;
+   padding-right:25px;
+   padding-top:8px;
+   padding-bottom:8px;
+  }
+  .buy:active{
+   opacity:0.5;
+  }
+  .back{
+   background-color: rgb(107, 127, 193);
+   color:rgb(8, 4, 4);
+   border-color: rgb(107, 127, 193);
+   border-style:solid;
+   border-radius:18px;
+   cursor:pointer;
+   transition: color 0.15s;
+   
+   padding-left:25px;
+   padding-right:25px;
+   padding-top:8px;
+   padding-bottom:8px;
+  }
+  .back:hover{
+   color:rgb(248, 151, 6);
+   background-color: aliceblue;
+   border-color: rgb(95, 157, 211);
+  }
+</style>
+<button class="request">
+ Request Now
+</button><br/><br/>
+<button class="sart">
+ Add to Cart
+</button><br/><br/>
+<button class="sign">
+ Sign up
+</button><br/><br/>
+<button class="get">
+ Get started
+</button>
+<button class="download">
+ Download
+</button><br/><br/>
+<button class="apply">
+ Apply on company website
+</button>
+<button class="save">
+ Save
+</button><br/><br/><br/>
+
+<a href="https://www.amazon.in/s?k=amazon+prime+membership&adgrpid=1320515078795879&hvadid=82532458763367&hvbmt=bb&hvdev=c&hvlocphy=143837&hvnetw=o&hvqmt=b&hvtargid=kwd-82533075230534%3Aloc-90&hydadcr=5653_2377271&msclkid=b6da225158a119050cf3442ea1fa3f59&tag=msndeskstdin-21&ref=pd_sl_6iluw3gs69_b" target="hi"><Button class="back">Back to Amazon</Button></a>
+<p class="nike">Nike Black Running Shoes</p>
+<p class="stock">$39 - in stock.</p>
+<p class="ty">Free delivery tomorrow.</p>
+<button class="add">Add to Cart</button>
+<button class="buy">Buy now</button>
